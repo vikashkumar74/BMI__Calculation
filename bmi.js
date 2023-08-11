@@ -22,7 +22,7 @@ document.querySelector(".submit").addEventListener('click', function () {
       document.querySelector(".para").textContent = "You weight is over(Do Exercise)";
     }
     if (bmival > 29) {
-      document.querySelector(".para").textContent = "You weight obose(Do Exercise)";
+      document.querySelector(".para").textContent = "You weight obese(Do Exercise)";
     }
   }
 });
